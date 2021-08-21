@@ -1,0 +1,233 @@
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mainHeadingClass {
+  background: #538cd3;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.mainHeading {
+  color: white;
+  font-family: Arial;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.sideBar {
+  background-color: #222831;
+  padding: 0;
+}
+.footerBar {
+  color: white;
+  font-family: Arial;
+  background-color: #538cd3;
+  padding: 0;
+  text-align: center;
+}
+.footerBar h2{
+  margin: 50px 60% 20px 20%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.profileImg {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.profileInfo {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.profileInfo h3 {
+  padding: 10px;
+  color: white;
+}
+
+.contactDetails,
+.languageSkillsDetails,
+.computerSkillsDetails {
+  padding-bottom: 30px;
+}
+
+.contactDetails h2,
+.languageSkillsDetails h2,
+.computerSkillsDetails h2,
+.professionalSkillsDetails h2,
+.referenceDetails h2 {
+  background-color: #538cd3;
+  padding: 10px 0 10px 30px;
+  color: white;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contactDetails table {
+  margin: 10px 10px 10px 30px;
+}
+
+.contactDetails td {
+  padding: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.languageSkillsDetails h3,
+.computerSkillsDetails h3 {
+  padding: 10px 30px;
+  color: white;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.skillContainer {
+  margin: auto;
+  width: 80%;
+  height: 15px;
+  background-color: white;
+}
+
+.tamilSkill {
+  background-color: #538cd3;
+  width: 100%;
+  height: 15px;
+}
+
+.englishSkill {
+  background-color: #538cd3;
+  width: 70%;
+  height: 15px;
+}
+
+.msOfficeSkill {
+  background-color: #538cd3;
+  width: 75%;
+  height: 15px;
+}
+
+.computerProgrammingSkill {
+  background-color: #538cd3;
+  width: 60%;
+  height: 15px;
+}
+
+.embeddedSystemSkill {
+  background-color: #538cd3;
+  width: 60%;
+  height: 15px;
+}
+
+.webDesigningSkill {
+  background-color: #538cd3;
+  width: 60%;
+  height: 15px;
+}
+
+.professionalSkillsDetails ul,
+.referenceDetails ul {
+  list-style-type: disc;
+  color: white;
+  padding: 10px 40px;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.professionalSkillsDetails li,
+.referenceDetails li,
+.academicDetail li,
+.projectDetails li,
+.hobbyDetails li,
+.programmingSkillDetails li,
+.personalDetails td {
+  padding: 10px 0 10px 0;
+}
+
+.defaultText {
+  color: #538cd3;
+}
+
+.profileDetail,
+.academicDetail,
+.projectDetails,
+.hobbyDetails,
+.programmingSkillDetails,
+.personalDetails {
+  margin: 30px 50px;
+}
+
+.profileDetail h2,
+.academicDetail h2,
+.projectDetails h2,
+.hobbyDetails h2,
+.programmingSkillDetails h2,
+.personalDetails h2 {
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profileDetail h3,
+.academicDetail h3,
+.projectDetails h3,
+.hobbyDetails h3,
+.programmingSkillDetails h3,
+.personalDetails h3 {
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.profileDetail h4,
+.academicDetail h4,
+.projectDetails h4,
+.hobbyDetails h4,
+.programmingSkillDetails h4,
+.personalDetails h4 {
+  font-family: Arial;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.profileDetail p,
+.academicDetail ul,
+.projectDetails ul,
+.hobbyDetails ul,
+.programmingSkillDetails ul,
+.personalDetails table {
+  margin: 0 100px 0 75px;
+}
+
+.personalDetails td {
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+hr {
+  border-top: 2px solid #538cd3;
+  margin-top: 0;
+}
+
+@media (min-width: 1360px) {
+  .col-xl-4 {
+    ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xl-8 {
+    ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
